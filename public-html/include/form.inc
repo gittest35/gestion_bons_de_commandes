@@ -6,7 +6,7 @@ function construire_form($tab_com, $tab_cli, $tab_prod, $message=""){
 
 
 
-<form action="main.php" method="post">
+<form action="index.php" method="post">
     <!-- Partie commande -->
 	<div id="comForm">
 		<label for="fNCOM">Commande N° &nbsp;:</label>
