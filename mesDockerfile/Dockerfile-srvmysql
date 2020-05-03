@@ -1,0 +1,11 @@
+FROM mariadb
+RUN apt update
+ENV MYSQL_ROOT_PASSWORD root
+COPY backup.sql /root
+EXPOSE 3306
+#VOLUME ["/var/www", "/var/log/apache2", "/etc/apache2"]
+VOLUME ./db-data:/var/lib/mysql
+CMD ["mysqld"]
+#ENTRYPOINT ["docker-entrypoint.sh", "-D", "FOREGROUND"]
+ENTRYPOINT ["docker-entrypoint.sh"]
+#RUN mysql   < /root/backup.sql
