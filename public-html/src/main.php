@@ -1,8 +1,8 @@
 <?php
         //fichiers inclusions (bibliothèques)
-        require_once '../include/fonctions.inc';
-        require_once '../include/form.inc';
-        require_once '../include/srvMySql.inc';
+        require_once './include/fonctions.inc';
+        require_once './include/form.inc';
+        require_once './include/srvMySql.inc';
         
         //Traitement du formulaire
         if (!empty($_POST) and !empty($_POST['fNCOM']) and !empty($_POST['fNCLI'])) {            
