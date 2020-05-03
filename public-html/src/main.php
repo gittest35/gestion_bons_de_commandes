@@ -29,7 +29,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Bon de commande</title>
-		<link rel="stylesheet" href="../css/styles.css">
+		<link rel="stylesheet" href="./css/styles.css">
 	</head>
 
 	<body> 		
