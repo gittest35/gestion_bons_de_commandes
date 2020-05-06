@@ -140,12 +140,12 @@ table#t01 th    {
 #totCom {
 	text-align: right;
 	font-weight: bold;
-	color: #1C4D68;	
+	color: green;	
 	border-color: #000000;
 }
 
 .caseJaune{
-	background-color: yellow;
+	background-color: blue;
 	font-weight: bold;
 }
 /*--------------------*/
